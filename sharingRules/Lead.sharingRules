@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_Lead_Records_To_Vp_NA_Sales</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Lead Records To Vp NA Sales</label>
+        <sharedTo>
+            <role>VPNorthAmericanSales</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>EasternSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

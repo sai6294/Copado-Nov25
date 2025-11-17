@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_cases_owned_by_Public_group2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share cases owned by Public group2</label>
+        <sharedTo>
+            <group>Public_Group1</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Public_Group2</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_cases_owned_by_public_group1</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share cases owned by public group1</label>
+        <sharedTo>
+            <group>Public_Group2</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Public_Group1</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
