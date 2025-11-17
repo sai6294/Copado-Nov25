@@ -482,6 +482,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Nov_V2__c</fullName>
+        <externalId>false</externalId>
+        <label>Nov_V2</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NumberOfEmployees</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
