@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Students</value>
+    </caseValues>
+    <fields>
+        <label><!-- Academic Year --></label>
+        <name>Academic_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>Course__c</name>
+        <picklistValues>
+            <masterLabel>BCOM</masterLabel>
+            <translation><!-- BCOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSC</masterLabel>
+            <translation><!-- BSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTECH</masterLabel>
+            <translation><!-- BTECH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBA</masterLabel>
+            <translation><!-- MBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSC</masterLabel>
+            <translation><!-- MSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTECH</masterLabel>
+            <translation><!-- MTECH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Of Birth --></label>
+        <name>Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field1 --></label>
+        <name>Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field2 --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Number --></label>
+        <name>Mobile_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- UG Field --></label>
+        <name>UG_Field__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- PG --></label>
+        <name>PG</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UG --></label>
+        <name>UG</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>My Account</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MyAccounts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Number --></label>
+        <name>Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Renewal Date --></label>
+        <name>Account_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current</masterLabel>
+            <translation><!-- Current --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings</masterLabel>
+            <translation><!-- Savings --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Revenue --></label>
+        <name>Annual_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance --></label>
+        <name>Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Size --></label>
+        <name>Company_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Of Birth --></label>
+        <name>Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiry Date --></label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- IFSC Code --></label>
+        <name>IFSC_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Number --></label>
+        <name>Mobile_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pan Number --></label>
+        <name>Pan_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Number --></label>
+        <name>Registration_Number__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Company Account --></label>
+        <name>Company_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Individual Account --></label>
+        <name>Individual_Account</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter a value for IFSC Code --></errorMessage>
+        <name>Account_Type_Should_Be_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Balance Must Be Greater Than Zero --></errorMessage>
+        <name>Balance_Cannot_Be_Negative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Email must contain gmail --></errorMessage>
+        <name>Email_Should_Be_Gmail</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a alphanumeric value without any special characters --></errorMessage>
+        <name>check_IFSC_Code</name>
+    </validationRules>
+</CustomObjectTranslation>

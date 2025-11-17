@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>share_accounts_owned_by_vp_international_sales</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>share accounts owned by vp international sales</label>
+        <sharedTo>
+            <role>VPMarketing</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>VPInternationalSales</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
